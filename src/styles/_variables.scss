@@ -1,0 +1,23 @@
+$background-color: rgba(0, 0, 0, 0.05);
+
+$navbar-font-color: white;
+
+$primary-color: rgba(13, 71, 161, 1);
+$secondary-color: rgba(25, 118, 210, 1);
+$module-background-color: white;
+$accent-color: #ffc107;
+
+
+$chart-background-color: rgba(25, 118, 210, .4);
+$chart-border-color: rgba(25, 118, 210, 1);
+$chart-font-color: black;
+$chart-font-size: 20px;
+
+$tcolor: red;
+
+:export {
+    chartBackgroundColor: $chart-background-color;
+    chartBorderColor: $chart-border-color;
+    chartFontColor: $chart-font-color;
+}
+

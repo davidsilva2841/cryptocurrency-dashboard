@@ -34,12 +34,17 @@
         "webpack-cli": "^3.3.10"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.12.0",
         "axios": "^0.19.0",
+        "chart.js": "^2.9.3",
         "cors": "^2.8.5",
+        "d3": "^5.15.0",
         "express": "^4.17.1",
+        "mdbreact": "git+https://oauth2:SD8LEKizYrx41KeyFKZv@git.mdbootstrap.com/mdb/react/re-pro.git",
         "morgan": "^1.9.1",
         "react": "^16.12.0",
         "react-bootstrap": "^1.0.0-beta.16",
-        "react-dom": "^16.12.0"
+        "react-dom": "^16.12.0",
+        "react-router-dom": "^5.1.2"
     }
 }

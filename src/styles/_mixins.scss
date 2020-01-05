@@ -1,0 +1,10 @@
+@import "./variables";
+
+
+@mixin module {
+    background-color: $module-background-color;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
