@@ -35,11 +35,23 @@ const getHistoryDummy = (id) => {
 };
 
 
+const getNews = () => {
+    return axios.get(
+        api + '/news/',
+        {
+            params: {
+                lang: 'EN'
+            }
+        }
+    )
+};
+
 
 
 module.exports.currencies = currencies;
 module.exports.getHistory = getHistory;
 module.exports.getHistoryDummy = getHistoryDummy;
+module.exports.getNews = getNews;
 
 
 
